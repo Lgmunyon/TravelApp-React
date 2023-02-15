@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+    font-family: Inter, sans-serif;
+}
+
+body {
+    margin: 0 auto;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 55px;
+    width: 550px;
+    background: #F55A5A;
+}
+
+header > img {
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+    
+}
+
+header > h3 {
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+    letter-spacing: -0.5px;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    height: 252px;
+    width: 470px;
+    padding: 60px 200px;
+    margin-left: 40px;
+    
+    box-shadow: 0px 5px 5px rgba(43, 40, 58, .2);
+}
+
+.card--image {
+    min-width: 160px;
+    min-height: 178px;
+    border-radius: 5px;
+}
+
+.card--location{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    width: 326px;
+    height: 30px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  width: 326px;
+  height: 129px;
+  margin-left: 19px;
+  /* margin-top: 20px; */
+}
+
+.card--location--name {
+    font-size: 11px;
+    font-weight: 400;
+    letter-spacing: .5px;
+}
+
+a {
+    font-size: 10px;
+    color: #918E9B;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+h1 {
+    font-size: 25px;
+    font-weight: 700;
+    height: 40px;
+    color: #2B283A;
+    margin-bottom: 0;
+}
+
+.maps--icon {
+    height: 10px;
+}
+
+.card--info {
+    font-size: 11px;
+}
+
+ p {
+    font-weight: 700;
+    color: #2B283A;
+}
+
+p + p {
+    font-weight: 400;
+}
